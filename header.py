@@ -1,5 +1,6 @@
 import requests
 from urllib.parse import urlparse
+import logging
 
 def normalize_url(u):
     if not urlparse(u).scheme:
